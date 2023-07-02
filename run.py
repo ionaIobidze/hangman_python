@@ -1,4 +1,8 @@
-from hangman import hangman
+from hangman import HangmanGame
+import tkinter as tk
+
 
 if __name__ == "__main__":
-    hangman()
+    root = tk.Tk()
+    game = HangmanGame(root)
+    root.mainloop()
